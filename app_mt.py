@@ -45,6 +45,8 @@ def runDPU(id,start,dpu,img):
     write_index = start
     print("\nrunDPU- batchSize: ", batchSize)
     print("\nrunDPU- # images : ", n_of_images)
+    print("\nrunDPU- OUTPUT 0 DIM: ", output_ndim)
+
     
 
     while count < n_of_images:
